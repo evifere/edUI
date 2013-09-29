@@ -177,8 +177,7 @@ function ()
           	      myUI._self._trigger("onClickCard",null,myUI);  
          
           	      }
-          	     
-          	     )
+          	    );
           	    });
            
           
@@ -247,8 +246,8 @@ function ()
         .addClass('ui-widget')
         .addClass('ui-corner-all')
         .addClass('ui-widget-content')
-        .css(_o.css)
-              
+        .css(_o.css);
+
      
      //  alert($dlg.html());
        
@@ -318,7 +317,7 @@ function ()
         $(_e).sortable({revert: true,
         	             placeholder: 'ui-state-highlight',
         	             forcePlaceholderSize:true
-        })      
+        });      
        
      },
      destroy: function() {
