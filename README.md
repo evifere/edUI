@@ -1,7 +1,7 @@
 edUI
 ====
 
-educational interface
+educational interface - On line demo : http://evifere.lescigales.org/edUI/
 
 ##Version 1.1
 
