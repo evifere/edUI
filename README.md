@@ -14,8 +14,11 @@ The configuration is based on xml and use jQuery UI .
 
 Each board are defined in an xml file.
 
+
+####The board tag
 The board tag defines the accordion containing all the decks available for one theme.
 
+####The deck tag 
 The deck tag contains all the couple of card for one memory.
 
 |attribute|type|description
@@ -24,6 +27,31 @@ The deck tag contains all the couple of card for one memory.
 |name|string|Link name in the accordeon|
 |description|string|Short description|
 
+
+####The couple tag
+the couple tag contains two card tag that are a couple.
+
+Couple with img
+
+```xml
+      <couple>
+        <card><![CDATA[<img src="./img/animaux/autruche.png" style="vertical-align: middle; ">]]></card>
+        <card><![CDATA[<img src="./img/animaux/autruche.png" style="vertical-align: middle; ">]]></card>
+      </couple>
+``` 
+
+Couple with text
+
+```xml
+      <couple>
+        <card><![CDATA[<span style="vertical-align: middle; ">Ils</span>]]></card>
+        <card><![CDATA[<span style="vertical-align: middle; ">sont</span>]]></card>
+      </couple>
+```
+
+
+
+####Example of configuration
 ```xml
 
 <?xml version="1.0" encoding="ISO-8859-1"?>
