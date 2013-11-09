@@ -3,6 +3,12 @@ edUI
 
 educational interface
 
+##Version 1.1
+
+Use last version of external libs jQuery 1.9.1 and jQuery UI 1.10.3
+
+fix a bug : reinitiate the number of card found to zero.
+
 ##Version 1.0
 
 1 memo game available.
